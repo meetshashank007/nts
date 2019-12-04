@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  app:
+    build:
+      context: "."
+      args:
+        uid: ${UID}
+    environment:
+      - APACHE_RUN_USER=#${UID}
+      - APACHE_RUN_GROUP=#${UID}
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - 8000:80
