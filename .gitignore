@@ -3,7 +3,7 @@
 /app/Config/database.php
 /app/tmp
 app/plugins
-app/vendors
+app/vendor/
 app/build
 app/dist
 app/tags
