@@ -2,12 +2,11 @@
 #################################################
 /app/Config/database.php
 /app/tmp
-/lib/Cake/Console/Templates/skel/tmp/
-/plugins
-/vendors
-/build
-/dist
-/tags
+app/plugins
+app/vendors
+app/build
+app/dist
+app/tags
 *.mo
 
 # IDE and editor specific files #
